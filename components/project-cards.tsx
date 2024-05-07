@@ -47,10 +47,10 @@ export function ProjectCards({
         <CarouselContent>
           {experienceConfig.projects.map((project) => (
             <CarouselItem
-              className="sm:basis-1/1 md:basis-1/2 min-w-128"
+              className="xs:basis-1/1 sm:basis-1/2 min-w-[360px]"
               key={project.title}
             >
-              <div className="p-1">
+              <div className="p-1 w-full">
                 <Card>
                   <CardContent className="flex aspect-square items-center justify-center p-6">
                     <div className="grid w-full items-center gap-4">

@@ -59,7 +59,7 @@ export const experienceConfig: ExperienceConfig = {
     // },
     {
       title: "Wedding Site",
-      description: "Event site for my wedding, with passcode, RSVPs, notifications, and Maps",
+      description: "Site for my wedding, with passcode, RSVPs, notifications, and Maps",
       source: {
         href: "https://www.github.com/cooperellidge/template-wedding"
       },
