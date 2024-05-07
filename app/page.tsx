@@ -25,8 +25,7 @@ export default function Home() {
           <PageHeaderHeading>Cooper Ellidge</PageHeaderHeading>
           <PageHeaderDescription>
             I am a software engineer interested in full-stack development and
-            data science. This page is a WIP so please forgive the
-            mobile-unfriendlyness and missing content!
+            data science.
           </PageHeaderDescription>
           <PageActions>
             <Link
