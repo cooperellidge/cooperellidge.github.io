@@ -60,9 +60,14 @@ export const experienceConfig: ExperienceConfig = {
     {
       title: "Wedding Site",
       description: "Site for my wedding, with passcode, RSVPs, notifications, and Maps",
-      source: {
-        href: "https://www.github.com/cooperellidge/template-wedding"
+      deploy: {
+        display: "Source available soon",
+        href: "#",
+        disabled: true
       },
+      // source: {
+      //   href: "https://www.github.com/cooperellidge/template-wedding"
+      // },
       tech: [
         "React",
         "Material UI",
@@ -77,7 +82,7 @@ export const experienceConfig: ExperienceConfig = {
         title: "Resume Repo",
         description: "LaTeX resume with GitHub CI/CD",
         deploy: {
-          display: "GitHub Pages",
+          display: "Download CV",
           href: siteConfig.links.resume,
         },
         source: {
@@ -89,10 +94,20 @@ export const experienceConfig: ExperienceConfig = {
         ],
     },
     {
+      title: "Electricity Dashboard",
+      description: "Personal Streamlit dashboard to analyse my household electricity usage",
+      tech: [
+        "Python",
+        "Streamlit",
+        "nemreader",
+        "pandas"
+      ],
+    },
+    {
       title: "Personal Site",
       description: "This website you're seeing now!",
       deploy: {
-        display: "GitHub Pages",
+        display: "You're here!",
         href: "https://cooperellidge.github.io",
       },
       source: {
