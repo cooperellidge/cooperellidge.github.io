@@ -63,9 +63,16 @@ export function ProjectCards({
                           target="_blank"
                           rel="noreferrer"
                           href={project.deploy.href}
-                          className={cn(buttonVariants({ variant: "outline" }))}
+                          className={cn(
+                            buttonVariants({ variant: "outline" }),
+                            project.deploy?.disabled
+                              ? "pointer-events-none opacity-50"
+                              : undefined
+                          )}
+                          aria-disabled={project.deploy?.disabled}
+                          tabIndex={project.deploy?.disabled ? -1 : undefined}
                         >
-                          Deployed with {project.deploy.display}
+                          {project.deploy.display}
                         </Link>
                       )}
                       {project?.source && (
@@ -73,7 +80,14 @@ export function ProjectCards({
                           target="_blank"
                           rel="noreferrer"
                           href={project.source.href}
-                          className={cn(buttonVariants({ variant: "outline" }))}
+                          className={cn(
+                            buttonVariants({ variant: "outline" }),
+                            project.source?.disabled
+                              ? "pointer-events-none opacity-50"
+                              : undefined
+                          )}
+                          aria-disabled={project.source?.disabled}
+                          tabIndex={project.source?.disabled ? -1 : undefined}
                         >
                           <GitHubLogoIcon className="mr-2 h-4 w-4" />
                           GitHub

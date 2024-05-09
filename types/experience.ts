@@ -12,6 +12,7 @@ export interface JobItem {
 interface Link {
   href: string
   display?: string
+  disabled?: boolean
 }
 
 export interface ProjectItem {
