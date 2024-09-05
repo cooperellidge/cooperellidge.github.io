@@ -19,7 +19,7 @@ export const experienceConfig: ExperienceConfig = {
         {
           title: "Software Engineer",
           bio: "I developed core retailing services, by building and integrating backend services to manage retail plans as well as improving signup services. I contrbuted to the sales platform’s frontend, directly improve user experiences. Leaning on my modelling experiences, I developed a load estimation forecast, enhancing tools for risk management and settlements.",
-          tenure: "Sep 2023 - Jun 2024"
+          tenure: "Aug 2023 - Jun 2024"
         }
       ]
     },
@@ -29,7 +29,7 @@ export const experienceConfig: ExperienceConfig = {
         {
           title: "Software Engineer",
           bio: "As a software engineer, I used my full-stack engineering skills to develop naval operator user interfaces and enhanced tactical capabilities using Java, Vue.js, Typescript, and DDS in a MVVM software architecture. I succesfully presented new capability to the customer during contract milestone demonstrations.",
-          tenure: "Jan 2023 - Sep 2023"
+          tenure: "Jan 2023 - Aug 2023"
         },
         {
           title: "Early Careers Lead",
