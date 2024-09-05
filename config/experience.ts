@@ -4,12 +4,22 @@ import { siteConfig } from "./site"
 export const experienceConfig: ExperienceConfig = {
   jobs: [
     {
+      company: "pointData",
+      positions: [
+        {
+          title: "Software Engineer",
+          bio: "I am currently improving the data platform to increase reliability, observability, and automations. I've just started, so as more things come up... I'll add them!",
+          tenure: "Jun 2024 - Now"
+        }
+      ]
+    },
+    {
       company: "iO Energy",
       positions: [
         {
           title: "Software Engineer",
           bio: "I developed core retailing services, by building and integrating backend services to manage retail plans as well as improving signup services. I contrbuted to the sales platform’s frontend, directly improve user experiences. Leaning on my modelling experiences, I developed a load estimation forecast, enhancing tools for risk management and settlements.",
-          tenure: "Sep 2023 - Now"
+          tenure: "Sep 2023 - Jun 2024"
         }
       ]
     },
