@@ -18,7 +18,7 @@ export const experienceConfig: ExperienceConfig = {
       positions: [
         {
           title: "Software Engineer",
-          bio: "I developed core retailing services, by building and integrating backend services to manage retail plans as well as improving signup services. I contrbuted to the sales platform’s frontend, directly improve user experiences. Leaning on my modelling experiences, I developed a load estimation forecast, enhancing tools for risk management and settlements.",
+          bio: "I developed core retailing services, by building and integrating backend services to manage retail plans as well as improving signup services. I contrbuted to the sales platform’s frontend, directly improving user experiences. Leaning on my modelling experiences, I developed a load estimation forecast, enhancing tools for risk management and settlements.",
           tenure: "Aug 2023 - Jun 2024"
         }
       ]
